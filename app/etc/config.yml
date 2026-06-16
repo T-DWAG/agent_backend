@@ -1,0 +1,14 @@
+app:
+  name: "chuanxing-ai"
+server:
+  mode: "debug"
+  host: "127.0.0.1"
+  port: 8888
+  readTimeout: 10s
+  writeTimeout: 10s
+  cors:
+    - "*"
+log:
+  level: "info"
+  format: "pretty"
+  addSource: true

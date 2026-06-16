@@ -1,1 +1,8 @@
 go 1.26.2
+
+use (
+	./app
+	./common
+	./core
+	./model
+)
