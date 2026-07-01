@@ -12,3 +12,33 @@ log:
   level: "info"
   format: "pretty"
   addSource: true
+
+
+
+db:
+  postgres:
+    host: "127.0.0.1"
+    port: 15432
+    user: "user01"
+    password: "Aa550999"
+    database: "einoProject"
+    sslMode: "disable"
+    maxIdleConns: 10
+    maxOpenConns: 100
+    pingTimeout: 5s
+  redis:
+    host: "127.0.0.1"
+    port: 6379
+
+jwt:
+  secret: "chuanxing-ai"
+  expire: 7h
+  refresh: 240h
+
+email:
+  host: "smtp.qq.com"
+  port: 587
+  username: "2636858254@qq.com"
+  password: "your-qq-auth-code"
+  from: "2636858254@qq.com"
+  baseUrl: "http://localhost:8888"

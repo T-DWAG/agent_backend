@@ -409,7 +409,7 @@ res.Success      统一响应（thunder 提供）
 - [x] 4 个模块 + `go.work` 配置完成
 - [x] `go run main.go` 无报错启动
 - [x] `GET /api/v1/auth/register` 返回正常 JSON
-- [ ] （可选）提交到 GitHub：`git commit -m "feat: 项目骨架搭建"`
+- [x] 提交并打 tag：见 [git-工作流.md](./git-工作流.md)
 
 ---
 
